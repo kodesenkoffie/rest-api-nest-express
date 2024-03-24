@@ -1,0 +1,18 @@
+### Sign Up User
+POST http://localhost:3000/auth/sign-up HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "alex@gmail.com",
+  "password": "alex@101"
+}
+
+
+### Login User
+POST http://localhost:3000/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "alexdoe3",
+  "password": "alex@101"
+}
