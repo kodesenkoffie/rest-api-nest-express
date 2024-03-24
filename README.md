@@ -9,9 +9,9 @@ pnpm add prisma @prisma/client
 # Initializing Prisma
 npx prisma init
 
-# Migration using Prisma
-npx prisma migrate 
+# Creating Migration using Prisma
+npx prisma migrate dev --name migration_name
 
-# Deploying 
+# Deploying Preexisting Migrations
 npx prisma migrate deploy
 ```
