@@ -1,2 +1,17 @@
-# rest-api-nest-express
-Rest API with standard best practices with NestJS and Express Framework
+# NestJS and RestAPI
+
+## Initializing Prisma
+
+```bash
+# Installing Prisma Dependency
+pnpm add prisma @prisma/client
+
+# Initializing Prisma
+npx prisma init
+
+# Migration using Prisma
+npx prisma migrate 
+
+# Deploying 
+npx prisma migrate deploy
+```
